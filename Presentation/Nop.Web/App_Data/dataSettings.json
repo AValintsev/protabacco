@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Data Source=scp.realhost.pro;Initial Catalog=protabacco;Integrated Security=False;Persist Security Info=False;User ID=protabacco_db_user;Password=PtAdmin11",
+  "DataProvider": "sqlserver",
+  "RawDataSettings": {}
+}
