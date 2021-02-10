@@ -1836,6 +1836,7 @@ label, label + * {
 		font-weight: normal;
 		-webkit-transition: all 0.3s ease;
 		transition: all 0.3s ease;
+		height: 62px;
 	}
 
 		.home-page-category-grid .title a,
