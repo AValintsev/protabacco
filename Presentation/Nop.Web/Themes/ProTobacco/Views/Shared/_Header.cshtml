@@ -1,0 +1,30 @@
+﻿<div class="header">
+	@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderBefore })
+	<div class="header-upper">
+		<div class="header-selectors-wrapper">
+			@await Component.InvokeAsync("TaxTypeSelector")
+			@*@await Component.InvokeAsync("CurrencySelector")*@
+			@await Component.InvokeAsync("LanguageSelector")
+			@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderSelectors })
+		</div>
+		<div class="header-links-wrapper">
+			@await Component.InvokeAsync("HeaderLinks")
+			@await Component.InvokeAsync("FlyoutShoppingCart")
+		</div>
+	</div>
+	@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderMiddle })
+	<div class="header-lower">
+		<div class="header-logo">
+			@await Component.InvokeAsync("Logo")
+		</div>
+		@*<div class="custom-header">
+			<a tel="+380971112233">+38 (097) 111-22-33</a>
+			<br />
+			<a tel="+380931112233">+38 (093) 111-22-33</a>
+		</div>*@
+		<div class="search-box store-search-box">
+			@await Component.InvokeAsync("SearchBox")
+		</div>
+	</div>
+	@await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HeaderAfter })
+</div>

@@ -1,0 +1,6 @@
+scp.realhost.pro
+protabacco_db_user
+PtAdmin11
+
+admin@protabacco.com
+PtAdmin11

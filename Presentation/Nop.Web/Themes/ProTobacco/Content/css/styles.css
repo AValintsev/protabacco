@@ -75,13 +75,14 @@ script {
 body {
 	max-width: 100%;
 	overflow-x: hidden;
-	background-color: #fff;
+	background-color: #000;
 	font: normal 14px Arial, Helvetica, sans-serif;
-	color: #777;
+	color: #f6f6f6;
+	background: url('../images/protabacon-bg-header-smoke_vert.jpg') no-repeat top 100px left -220px, url('../images/protabacon-bg-header-smoke_vert.jpg') no-repeat top 100px right -220px #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #444;
+	color: #f6f6f6;
 }
 
 a {
@@ -131,7 +132,7 @@ select {
 	input[type="password"]:focus,
 	textarea:focus, select:focus {
 		border-color: #ccc;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 input[type="checkbox"],
@@ -155,6 +156,7 @@ label, label + * {
 	z-index: 0;
 	width: 90%;
 	margin: 0 auto;
+	/*background-image: url('../images/background-1838494_640.jpg');*/
 }
 
 .master-column-wrapper {
@@ -276,7 +278,7 @@ label, label + * {
 		margin: 0 0 15px;
 		padding: 0 10px;
 		font-size: 20px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.fieldset .title strong,
@@ -311,7 +313,7 @@ label, label + * {
 		margin: 0 0 10px;
 		text-align: center;
 		font-size: 14px; /*reset zeroing*/
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.inputs input[type="text"],
@@ -459,9 +461,8 @@ label, label + * {
 	border-width: 1px;
 	border-style: solid;
 	border-color: transparent #ddd #ddd;
-	background-color: #fff;
 	padding: 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .forum-table td {
@@ -473,7 +474,7 @@ label, label + * {
 .data-table a,
 .forum-table a {
 	font-weight: normal;
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.cart a:hover,
@@ -500,13 +501,13 @@ label, label + * {
 .data-table .product a,
 .data-table .info a {
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.cart .product a:hover,
 	.data-table .product a:hover,
 	.data-table .info a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 		text-decoration: none;
 	}
 
@@ -516,7 +517,7 @@ label, label + * {
 
 	.cart .product .edit-item a {
 		font-weight: normal;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.cart .product .edit-item a:hover {
@@ -543,17 +544,17 @@ label, label + * {
 .cart td.subtotal,
 .data-table td.total {
 	white-space: nowrap;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.cart td.subtotal .discount, .cart td.subtotal .discount-additional-info {
 		font-style: italic;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .data-table em a {
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .data-table div.download {
@@ -638,7 +639,7 @@ label, label + * {
 	padding: 30px 15px;
 	text-align: center;
 	line-height: 22px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .ajax-loading-block-window {
@@ -697,7 +698,7 @@ label, label + * {
 	.ui-dialog-titlebar > span {
 		float: left;
 		font-size: 18px;
-		color: #444;
+		color: #f6f6f6;
 		/*override jQuery UI styles, do not delete doubled properties*/
 		margin: 0 !important;
 	}
@@ -763,7 +764,7 @@ label, label + * {
 
 		.ui-dialog-content .back-in-stock-subscription-page .button-1 {
 			border: none;
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 			padding: 10px 15px;
 			font-size: 15px;
 			color: #fff;
@@ -771,7 +772,7 @@ label, label + * {
 		}
 
 			.ui-dialog-content .back-in-stock-subscription-page .button-1:hover {
-				background-color: #248ece;
+				background-color: #5e371c;
 			}
 
 .eu-cookie-bar-notification {
@@ -798,19 +799,19 @@ label, label + * {
 		min-width: 60px;
 		margin: 5px 0 10px;
 		border: none;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 8px 12px;
 		font-size: 14px;
 		color: #fff;
 	}
 
 		.eu-cookie-bar-notification button:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 	.eu-cookie-bar-notification a {
 		display: block;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.eu-cookie-bar-notification a:hover {
@@ -841,7 +842,7 @@ label, label + * {
 	}
 
 		.admin-header-links .impersonate a {
-			background-color: #555;
+			background-color: #f6f6f6;
 			padding: 0 15px;
 		}
 
@@ -855,6 +856,8 @@ label, label + * {
 	width: 95%;
 	margin: auto;
 	text-align: center;
+	color: #f6f6f6;
+	/*background-image: url(../images/protabacon-bg-header-smoke.jpg)*/
 }
 
 .header-upper {
@@ -933,7 +936,7 @@ label, label + * {
 	}
 
 		.header-links a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 #topcartlink {
@@ -941,7 +944,7 @@ label, label + * {
 	width: 70%;
 	max-width: 400px;
 	margin: 10px auto 0;
-	background-color: #f6f6f6;
+	background-color: #000;
 	padding: 0 20px;
 }
 
@@ -994,7 +997,7 @@ label, label + * {
 	min-width: 86px;
 	height: 36px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 0 15px;
 	text-align: center;
 	color: #fff;
@@ -1002,7 +1005,7 @@ label, label + * {
 }
 
 	.search-box .search-box-button:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .search-box .ui-autocomplete-loading {
@@ -1066,7 +1069,7 @@ label, label + * {
 
 
 .footer {
-	background-color: #eee;
+	background-color: #000;
 	text-align: center;
 }
 
@@ -1088,10 +1091,10 @@ label, label + * {
 
 	.footer-block .title {
 		margin: 0 0 1px;
-		background: #4ab2f1 url('../images/toggle-white.png') right center no-repeat;
+		background: #9c5c24 url('../images/toggle-white.png') right center no-repeat;
 		padding: 10px 15px;
 		font-size: 20px;
-		color: #fff;
+		color: #f6f6f6;
 		cursor: pointer;
 	}
 
@@ -1113,7 +1116,7 @@ label, label + * {
 		}
 
 			.footer-block .list a:hover {
-				color: #4ab2f1;
+				color: #9c5c24;
 			}
 
 .follow-us {
@@ -1124,7 +1127,7 @@ label, label + * {
 	.follow-us .title {
 		margin: 0 0 10px;
 		background: none;
-		color: #444;
+		color: #f6f6f6;
 		cursor: auto;
 	}
 
@@ -1184,7 +1187,7 @@ label, label + * {
 	float: left;
 	height: 36px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 0 15px;
 	text-align: center;
 	color: #fff;
@@ -1192,7 +1195,7 @@ label, label + * {
 }
 
 	.newsletter-subscribe-button:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .newsletter-email .options {
@@ -1220,7 +1223,7 @@ label, label + * {
 
 .footer-tax-shipping a {
 	font-weight: bold;
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.footer-tax-shipping a:hover {
@@ -1233,7 +1236,7 @@ label, label + * {
 
 	.footer-powered-by a {
 		font-weight: bold;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.footer-powered-by a:hover {
@@ -1267,7 +1270,7 @@ label, label + * {
 		background: #f6f6f6 url('../images/toggle-gray.png') right 14px no-repeat;
 		padding: 12px 30px 12px 10px;
 		font-size: 20px;
-		color: #444;
+		color: #f6f6f6;
 		cursor: pointer;
 	}
 
@@ -1286,11 +1289,14 @@ label, label + * {
 	}
 
 	.block .list .active > a {
-		color: #4ab2f1;
+		color: #9c5c24;
+		/*-webkit-box-shadow: 0px 0px 7px 16px rgba(245,230,210,1);
+		-moz-box-shadow: 0px 0px 7px 16px rgba(245,230,210,1);
+		box-shadow: 0px 0px 7px 16px rgba(245,230,210,1);*/
 	}
 
 	.block .list a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 	.block a.product-picture {
@@ -1317,7 +1323,7 @@ label, label + * {
 			display: inline-block;
 			padding: 10px 15px;
 			font-size: 16px;
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 			.block .view-all a:hover {
@@ -1345,12 +1351,12 @@ label, label + * {
 			.product-tags-all-page li a {
 				float: left;
 				line-height: 30px;
-				color: #444;
+				color: #f6f6f6;
 			}
 
 				.block .tags li a:hover,
 				.product-tags-all-page li a:hover {
-					color: #4ab2f1;
+					color: #9c5c24;
 				}
 
 .poll strong {
@@ -1360,7 +1366,7 @@ label, label + * {
 	padding: 10px 15px;
 	font-size: 15px;
 	font-weight: normal;
-	color: #444;
+	color: #f6f6f6;
 	text-transform: uppercase;
 }
 
@@ -1369,7 +1375,7 @@ label, label + * {
 	margin: 10px 0 15px;
 	overflow: hidden;
 	font-size: 15px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.poll-options li,
@@ -1410,7 +1416,7 @@ label, label + * {
 	margin: 10px 0 0;
 	font-weight: bold;
 	font-style: italic;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .home-page-polls {
@@ -1419,7 +1425,7 @@ label, label + * {
 
 	.home-page-polls .title {
 		border-bottom: 1px solid #ddd;
-		color: #444;
+		color: #f6f6f6;
 		font-size: 30px;
 		font-weight: normal;
 		margin: 0 0 30px;
@@ -1442,9 +1448,13 @@ label, label + * {
 
 .breadcrumb {
 	margin: 0 0 50px;
-	background-color: #f6f6f6;
+	background-color: transparent;
 	padding: 5px 10px;
 }
+
+	.breadcrumb .current-item {
+		color: #9c5c24;
+	}
 
 	.breadcrumb ul {
 		font-size: 0;
@@ -1466,7 +1476,7 @@ label, label + * {
 	}
 
 	.breadcrumb a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .category-description,
@@ -1482,7 +1492,7 @@ label, label + * {
 
 	.contact-vendor .button-2 {
 		border: none;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 10px 15px;
 		font-size: 14px;
 		color: #fff;
@@ -1490,7 +1500,7 @@ label, label + * {
 	}
 
 		.contact-vendor .button-2:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 .product-selectors {
@@ -1542,10 +1552,10 @@ label, label + * {
 
 	.product-filter .filter-title {
 		margin: 0 0 10px;
-		background-color: #f6f6f6;
+		background-color: #000;
 		padding: 10px;
 		font-size: 17px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.product-filter .filter-title strong {
@@ -1554,7 +1564,7 @@ label, label + * {
 
 	.product-filter .filter-content {
 		padding: 10px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.product-filter .available-items:after {
@@ -1578,7 +1588,7 @@ label, label + * {
 			}
 
 				.product-filter .group li a:hover {
-					color: #4ab2f1;
+					color: #9c5c24;
 				}
 
 			.product-filter .group li.item {
@@ -1617,7 +1627,7 @@ label, label + * {
 }
 
 .filtered-items .item {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 .remove-filter {
@@ -1697,7 +1707,8 @@ label, label + * {
 		font-size: 17px;
 		line-height: 1.2;
 		font-weight: normal;
-		color: #4ab2f1;
+		color: #9c5c24;
+		height: 62px;
 	}
 
 		.item-box .product-title a {
@@ -1705,7 +1716,7 @@ label, label + * {
 		}
 
 			.item-box .product-title a:hover {
-				color: #248ece;
+				color: #5e371c;
 			}
 
 	.item-box .sku {
@@ -1756,7 +1767,7 @@ label, label + * {
 	}
 
 	.item-box .tax-shipping-info a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.item-box .tax-shipping-info a:hover {
@@ -1777,7 +1788,7 @@ label, label + * {
 
 	.item-box .product-box-add-to-cart-button {
 		width: 60%;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		text-align: center;
 		font-size: 15px;
 		color: #fff;
@@ -1785,7 +1796,7 @@ label, label + * {
 	}
 
 		.item-box .product-box-add-to-cart-button:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 	.item-box .add-to-compare-list-button,
@@ -1854,7 +1865,7 @@ label, label + * {
 		padding: 0 0 15px;
 		font-size: 30px;
 		font-weight: normal;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.product-grid .title strong {
@@ -1868,7 +1879,7 @@ label, label + * {
 }
 
 	.manufacturer-grid .title a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .manufacturer-grid .picture {
@@ -1882,7 +1893,7 @@ label, label + * {
 }
 
 	.vendor-grid .title a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .vendor-grid .picture {
@@ -1910,7 +1921,7 @@ label, label + * {
 			min-width: 35px;
 			height: 35px;
 			border: 1px solid #ddd;
-			background-color: #eee;
+			/*background-color: #eee;*/
 			padding: 8px;
 			text-align: center;
 			font-size: 14px; /*reset zeroing*/
@@ -1919,7 +1930,7 @@ label, label + * {
 
 		.pager li span {
 			border-color: transparent;
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 			color: #fff;
 		}
 
@@ -1934,19 +1945,23 @@ label, label + * {
 		}
 
 		.pager li.previous-page * {
-			background-image: url('../images/prev.png');
+			/*background-image: url('../images/prev.png');*/
+			font-size: 14px;
 		}
 
 		.pager li.next-page * {
-			background-image: url('../images/next.png');
+			/*background-image: url('../images/next.png');*/
+			font-size: 14px;
 		}
 
 		.pager li.first-page * {
-			background-image: url('../images/first.png');
+			/*background-image: url('../images/first.png');*/
+			font-size: 14px;
 		}
 
 		.pager li.last-page * {
-			background-image: url('../images/last.png');
+			/*background-image: url('../images/last.png');*/
+			font-size: 14px;
 		}
 
 		.pager li a:hover {
@@ -2061,7 +2076,7 @@ label, label + * {
 .product-no-reviews,
 .product-reviews-overview {
 	margin: 0 0 25px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.product-no-reviews a {
@@ -2089,17 +2104,17 @@ label, label + * {
 }
 
 	.product-review-links a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .overview .value,
 .variant-overview .value {
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.overview .value a,
 	.variant-overview .value a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.overview .value a:hover,
@@ -2201,7 +2216,7 @@ label, label + * {
 	background: url('../images/shipping.png') left center no-repeat;
 	padding: 2px 0 2px 28px;
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.overview .free-shipping.invisible,
@@ -2218,7 +2233,7 @@ label, label + * {
 .variant-overview .min-qty-notification {
 	margin: 10px 0;
 	font-style: italic;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .overview .download-sample,
@@ -2256,12 +2271,12 @@ label, label + * {
 .variant-overview .product-price {
 	font-size: 20px;
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .overview .tax-shipping-info a,
 .variant-overview .tax-shipping-info a {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.overview .tax-shipping-info a:hover,
@@ -2278,7 +2293,7 @@ label, label + * {
 		display: block;
 		margin: 0 0 5px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.customer-entered-price .price-input input {
@@ -2302,7 +2317,7 @@ label, label + * {
 	.tier-prices table td {
 		border: 1px solid #ddd;
 		padding: 10px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.tier-prices .field-header {
@@ -2342,7 +2357,7 @@ label, label + * {
 	padding: 0 12px;
 	text-align: center;
 	font-size: 15px;
-	color: #444;
+	color: #000;
 }
 
 .overview .qty-dropdown,
@@ -2350,14 +2365,14 @@ label, label + * {
 	height: 43px;
 	padding: 0 12px;
 	font-size: 15px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .overview .add-to-cart-button,
 .variant-overview .add-to-cart-button {
 	height: 43px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 0 24px;
 	font-size: 15px;
 	color: #fff;
@@ -2366,7 +2381,7 @@ label, label + * {
 
 	.overview .add-to-cart-button:hover,
 	.variant-overview .add-to-cart-button:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .product-share-button {
@@ -2386,7 +2401,7 @@ label, label + * {
 	.product-collateral .title {
 		margin: 0 0 10px;
 		font-size: 18px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.product-collateral .title strong {
@@ -2422,7 +2437,7 @@ label, label + * {
 		padding: 10px 0;
 		font-size: 16px;
 		font-weight: bold;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 	.variant-overview .variant-description {
@@ -2471,7 +2486,7 @@ label, label + * {
 	}
 
 		.product-tags-list a:hover {
-			color: #444;
+			color: #f6f6f6;
 		}
 
 .attributes {
@@ -2489,7 +2504,7 @@ label, label + * {
 		margin: 0 0 5px;
 		white-space: nowrap;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.attributes dd,
@@ -2514,7 +2529,7 @@ label, label + * {
 	.attributes .datepicker {
 		width: 280px;
 		text-align: center;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.attributes .qty-box input {
@@ -2539,7 +2554,7 @@ label, label + * {
 .ui-datepicker-header {
 	position: relative;
 	height: 32px;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	color: #fff;
 	/*override jQuery UI styles, do not delete doubled properties*/
 	border: none;
@@ -2612,7 +2627,7 @@ label, label + * {
 			display: block;
 			min-height: 32px;
 			line-height: 32px;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 		.ui-datepicker-calendar td a {
@@ -2625,11 +2640,11 @@ label, label + * {
 		}
 
 	.ui-datepicker-calendar .ui-state-active {
-		outline: 2px solid #4ab2f1;
+		outline: 2px solid #9c5c24;
 		font-weight: bold;
-		color: #4ab2f1;
+		color: #9c5c24;
 		/*override jQuery UI styles, do not delete doubled properties*/
-		color: #4ab2f1 !important;
+		color: #9c5c24 !important;
 	}
 
 .attribute-squares {
@@ -2664,7 +2679,7 @@ label, label + * {
 	}
 
 	.attribute-squares .selected-value .attribute-square-container {
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 	}
 
 	.attribute-squares li input {
@@ -2752,7 +2767,7 @@ label, label + * {
 		display: block;
 		margin: 0 auto 5px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.giftcard input,
@@ -2771,7 +2786,7 @@ label, label + * {
 
 
 .product-reviews-page h1 a {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.product-reviews-page h1 a:before,
@@ -2782,7 +2797,7 @@ label, label + * {
 .product-reviews-page .title {
 	margin: 0 0 20px;
 	font-size: 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.product-reviews-page .title strong {
@@ -2801,7 +2816,7 @@ label, label + * {
 	position: initial;
 	display: inline-block;
 	border-bottom: 1px dotted black;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.tooltip .tooltiptext {
@@ -2839,7 +2854,7 @@ label, label + * {
 		display: block;
 		margin: 0 0 5px;
 		font-size: 14px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.write-review .review-rating div.first {
@@ -2864,7 +2879,7 @@ label, label + * {
 
 .write-review .button-1 {
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 25px;
 	text-align: center;
 	font-size: 15px;
@@ -2873,7 +2888,7 @@ label, label + * {
 }
 
 	.write-review .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .product-reviews-page .result,
@@ -2899,7 +2914,7 @@ label, label + * {
 	.product-review-item .review-title {
 		line-height: 20px;
 		font-size: 15px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.product-review-item .product-review-box {
@@ -2913,7 +2928,7 @@ label, label + * {
 	.product-review-item .review-text {
 		margin: 0 0 15px;
 		line-height: 22px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.product-review-item .avatar {
@@ -2946,7 +2961,7 @@ label, label + * {
 		.product-review-helpfulness .vote {
 			display: inline-block;
 			padding: 0 5px;
-			color: #4ab2f1;
+			color: #9c5c24;
 			cursor: pointer;
 		}
 
@@ -3021,13 +3036,13 @@ label, label + * {
 
 	.wishlist-content .update-wishlist-button,
 	.wishlist-content .wishlist-add-to-cart-button {
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		text-transform: uppercase;
 	}
 
 		.wishlist-content .update-wishlist-button:hover,
 		.wishlist-content .wishlist-add-to-cart-button:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 	.wishlist-content .email-a-friend-wishlist-button {
@@ -3049,11 +3064,11 @@ label, label + * {
 
 	.wishlist-page .share-info a {
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.wishlist-page .share-info a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 .wishlist-page .no-data {
@@ -3068,7 +3083,7 @@ label, label + * {
 	.compare-products-page .clear-list {
 		display: inline-block;
 		margin: 0 0 20px;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 10px 15px;
 		font-size: 12px;
 		color: #fff;
@@ -3076,7 +3091,7 @@ label, label + * {
 	}
 
 		.compare-products-page .clear-list:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 	.compare-products-page .table-wrapper {
@@ -3091,7 +3106,7 @@ label, label + * {
 	padding: 20px;
 	text-align: left;
 	vertical-align: top;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.compare-products-table td:first-child {
@@ -3113,7 +3128,7 @@ label, label + * {
 }
 
 	.compare-products-table .remove-button:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .compare-products-table .picture {
@@ -3140,7 +3155,7 @@ label, label + * {
 }
 
 	.compare-products-table .product-name td a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .compare-products-table .short-description td {
@@ -3194,7 +3209,7 @@ label, label + * {
 
 .topic-block strong,
 .topic-page strong {
-	color: #444;
+	color: #f6f6f6;
 }
 
 .home-page .topic-block {
@@ -3215,7 +3230,7 @@ label, label + * {
 
 .enter-password-title {
 	margin: 0 0 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .enter-password-form {
@@ -3236,14 +3251,14 @@ label, label + * {
 		min-width: 86px;
 		height: 40px;
 		border: none;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 0 15px;
 		color: #fff;
 		text-transform: uppercase;
 	}
 
 		.enter-password-form input[type="submit"]:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 
@@ -3271,7 +3286,7 @@ label, label + * {
 .apply-vendor-page .button-1 {
 	min-width: 140px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 15px;
@@ -3282,7 +3297,7 @@ label, label + * {
 	.contact-page .button-1:hover,
 	.email-a-friend-page .button-1:hover,
 	.apply-vendor-page .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .contact-page .topic-block,
@@ -3293,7 +3308,7 @@ label, label + * {
 
 	.email-a-friend-page .title h2 {
 		font-weight: normal;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .apply-vendor-page .terms-of-service {
@@ -3307,7 +3322,7 @@ label, label + * {
 
 	.apply-vendor-page .terms-of-service span,
 	.apply-vendor-page .terms-of-service a {
-		color: #4ab2f1;
+		color: #9c5c24;
 		cursor: pointer;
 	}
 
@@ -3372,7 +3387,7 @@ label, label + * {
 
 	.inputs.accept-consent span,
 	.inputs.accept-consent a {
-		color: #4ab2f1;
+		color: #9c5c24;
 		cursor: pointer;
 		font-size: 14px;
 	}
@@ -3391,7 +3406,7 @@ label, label + * {
 .return-request-page .button-1 {
 	min-width: 140px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 15px;
@@ -3405,11 +3420,11 @@ label, label + * {
 	.password-recovery-page .button-1:hover,
 	.account-page .button-1:hover,
 	.return-request-page .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .return-request-page h1 a {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 .return-request-page .return-request-file {
@@ -3461,7 +3476,7 @@ label, label + * {
 .login-page .title {
 	margin: 0 0 15px;
 	font-size: 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.login-page .title strong {
@@ -3485,7 +3500,7 @@ label, label + * {
 	}
 
 	.login-page .new-wrapper .topic-block-body strong {
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.login-page .new-wrapper .button-1 {
@@ -3510,11 +3525,11 @@ label, label + * {
 			width: auto;
 			margin: 5px;
 			font-size: 14px; /*reset zeroing*/
-			color: #444;
+			color: #f6f6f6;
 		}
 
 		.login-page .returning-wrapper .inputs.reversed a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 .login-page .captcha-box {
@@ -3535,7 +3550,7 @@ label, label + * {
 	.external-authentication .title {
 		margin: 0 0 15px;
 		font-size: 20px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.external-authentication .buttons {
@@ -3549,11 +3564,11 @@ label, label + * {
 }
 
 .external-auth-association {
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.external-auth-association a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.external-auth-association a:hover {
@@ -3563,7 +3578,7 @@ label, label + * {
 .password-recovery-page .result {
 	margin: 0 0 5px;
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .password-recovery-page .tooltip {
@@ -3575,7 +3590,7 @@ label, label + * {
 }
 
 	.add-more-external-records a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.add-more-external-records a:hover {
@@ -3612,7 +3627,7 @@ label, label + * {
 	background-color: #f9f9f9;
 	padding: 20px;
 	line-height: 26px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.address-list-page .info .name,
@@ -3628,7 +3643,7 @@ label, label + * {
 	border: none;
 	padding: 0 0 0 18px;
 	font-size: 12px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .edit-address-button {
@@ -3654,7 +3669,7 @@ label, label + * {
 
 .address-list-page .button-2:hover,
 .order-list-page .button-2:hover {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 .address-list-page .add-button {
@@ -3695,7 +3710,7 @@ label, label + * {
 	background-color: #f9f9f9;
 	padding: 20px;
 	line-height: 22px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .return-request-list-page label {
@@ -3703,7 +3718,7 @@ label, label + * {
 }
 
 .return-request-list-page a {
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.return-request-list-page a:hover {
@@ -3714,11 +3729,11 @@ label, label + * {
 	margin: 10px 0 0;
 	font-size: 15px;
 	font-style: italic;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .downloadable-products-page table td {
-	color: #444;
+	color: #f6f6f6;
 }
 
 .reward-points-overview {
@@ -3726,7 +3741,7 @@ label, label + * {
 }
 
 .reward-points-history table td {
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.reward-points-history table td:first-child {
@@ -3787,7 +3802,7 @@ label, label + * {
 	}
 
 .avatar-page .info {
-	color: #444;
+	color: #f6f6f6;
 }
 
 .vendorinfo-page .button-2 {
@@ -3851,7 +3866,7 @@ label, label + * {
 		display: block;
 		min-width: 70px;
 		font-size: 14px; /*reset zeroing*/
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.order-progress a:before {
@@ -3931,16 +3946,16 @@ label, label + * {
 		}
 
 		.shopping-cart-page .common-buttons input:first-child {
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 		}
 
 			.shopping-cart-page .common-buttons input:first-child:hover {
-				background-color: #248ece;
+				background-color: #5e371c;
 			}
 
 .checkout-attributes {
 	margin: -30px 0 30px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.checkout-attributes dt {
@@ -3983,7 +3998,7 @@ label, label + * {
 
 .selected-checkout-attributes {
 	margin: 30px 0;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.selected-checkout-attributes br {
@@ -4009,7 +4024,7 @@ label, label + * {
 		margin: 0 auto 50px;
 		background-color: #f9f9f9;
 		padding: 10px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.cart-footer .total-info {
@@ -4035,7 +4050,7 @@ label, label + * {
 
 .cart-total .order-total {
 	font-size: 20px;
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.cart-total .order-total strong {
@@ -4063,7 +4078,7 @@ label, label + * {
 
 	.terms-of-service a {
 		margin: 0 0 0 3px;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .cart-footer .checkout-buttons {
@@ -4083,7 +4098,7 @@ label, label + * {
 	display: inline-block;
 	min-width: 160px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 20px;
 	font-size: 16px;
 	color: #fff;
@@ -4091,7 +4106,7 @@ label, label + * {
 }
 
 	.cart-footer .checkout-button:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .cart-footer .addon-buttons {
@@ -4127,7 +4142,7 @@ label, label + * {
 	.cart-collaterals .title {
 		margin: 0 0 5px;
 		font-size: 18px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.cart-collaterals .title strong {
@@ -4201,7 +4216,7 @@ label, label + * {
 		.cart-collaterals .shipping-results li strong {
 			display: block;
 			margin: 0 0 5px;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 .shopping-cart-page .no-data {
@@ -4344,16 +4359,16 @@ label, label + * {
 	}
 
 	.estimate-shipping-radio:checked + label {
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		color: #99a1a7;
 		border: 1px solid #adb8c0;
-		border-color: #4ab2f1;
+		border-color: #9c5c24;
 	}
 
 .apply-shipping-button {
 	border: none;
 	padding: 8px 25px;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	color: #fff;
 }
 
@@ -4449,7 +4464,7 @@ label, label + * {
 	.product-estimate-shipping .shipping-title {
 		font-size: 16px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 		margin-bottom: 5px;
 		justify-content: center;
 	}
@@ -4510,7 +4525,7 @@ label, label + * {
 	display: inline-block;
 	min-width: 140px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 15px;
@@ -4519,7 +4534,7 @@ label, label + * {
 }
 
 	.checkout-page .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .checkout-page .address-item {
@@ -4532,7 +4547,7 @@ label, label + * {
 		margin: 0 0 15px;
 		background-color: #f9f9f9;
 		padding: 20px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.checkout-page .address-item li {
@@ -4563,7 +4578,7 @@ label, label + * {
 	.checkout-page .ship-to-same-address .selector {
 		margin: 0 0 5px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .checkout-page .pickup-in-store {
@@ -4573,7 +4588,7 @@ label, label + * {
 	.checkout-page .pickup-in-store .selector {
 		margin: 0 0 5px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .select-pickup-point {
@@ -4606,7 +4621,7 @@ label, label + * {
 		.payment-method .method-list li label {
 			font-size: 13px;
 			font-weight: bold;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 .shipping-method .method-description {
@@ -4616,7 +4631,7 @@ label, label + * {
 .payment-method .use-reward-points {
 	margin: 0 0 30px;
 	text-align: center;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .payment-method .payment-logo {
@@ -4639,7 +4654,7 @@ label, label + * {
 
 .payment-info .info {
 	padding: 30px 15px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.payment-info .info tr {
@@ -4696,7 +4711,7 @@ label, label + * {
 	margin: 0 auto 40px;
 	background-color: #f9f9f9;
 	padding: 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .order-review-data li,
@@ -4731,7 +4746,7 @@ label, label + * {
 	margin: 0 0 30px;
 	padding: 30px 15px;
 	text-align: center;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.order-completed .details div {
@@ -4744,7 +4759,7 @@ label, label + * {
 	}
 
 	.order-completed .details a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.order-completed .details a:hover {
@@ -4758,7 +4773,7 @@ label, label + * {
 }
 
 .opc .allow .step-title {
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	cursor: pointer;
 }
 
@@ -4785,7 +4800,7 @@ label, label + * {
 }
 
 .opc .allow .step-title .number {
-	background-color: #248ece;
+	background-color: #5e371c;
 }
 
 .opc .step {
@@ -4825,11 +4840,11 @@ label, label + * {
 		margin: 0 0 0 -15px;
 		background: url('../images/back-button.png') left center no-repeat;
 		padding: 0 0 0 18px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.opc .back-link a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 .opc .buttons .please-wait {
@@ -4888,11 +4903,11 @@ label, label + * {
 		}
 
 		.order-details-page .page-title a.print-order-button {
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 		}
 
 			.order-details-page .page-title a.print-order-button:hover {
-				background-color: #248ece;
+				background-color: #5e371c;
 			}
 
 .order-details-page .order-overview {
@@ -4900,7 +4915,7 @@ label, label + * {
 	line-height: 26px;
 	text-align: center;
 	font-size: 16px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.order-details-page .order-overview .order-number {
@@ -4910,14 +4925,14 @@ label, label + * {
 
 	.order-details-page .order-overview .order-total strong {
 		font-weight: normal;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .order-details-page .repost .button-2 {
 	display: inline-block;
 	margin: 10px 0;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 15px;
 	font-size: 12px;
 	color: #fff;
@@ -4925,12 +4940,12 @@ label, label + * {
 }
 
 	.order-details-page .repost .button-2:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .order-details-page .download a {
 	font-weight: normal;
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 	.order-details-page .download a:hover {
@@ -4946,7 +4961,7 @@ label, label + * {
 .user-agreement-page .button-1 {
 	min-width: 140px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 15px;
@@ -4955,7 +4970,7 @@ label, label + * {
 }
 
 	.user-agreement-page .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .order-details-page .tax-shipping-info {
@@ -4963,7 +4978,7 @@ label, label + * {
 }
 
 	.order-details-page .tax-shipping-info a {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.order-details-page .tax-shipping-info a:hover {
@@ -4992,11 +5007,11 @@ label, label + * {
 		}
 
 		.order-details-page .actions input:first-child {
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 		}
 
 			.order-details-page .actions input:first-child:hover {
-				background-color: #248ece;
+				background-color: #5e371c;
 			}
 
 .order-details-page .totals.section {
@@ -5009,7 +5024,7 @@ label, label + * {
 .order-details-page .total-info {
 	background-color: #f9f9f9;
 	padding: 15px 20px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 
@@ -5054,7 +5069,7 @@ label, label + * {
 .search-input .button-1 {
 	min-width: 140px;
 	border: none;
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 15px;
@@ -5063,7 +5078,7 @@ label, label + * {
 }
 
 	.search-input .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .search-results {
@@ -5094,7 +5109,7 @@ label, label + * {
 	.sitemap-page .entity-title h2 {
 		font-size: 20px;
 		font-weight: normal;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .sitemap-page .entity-body {
@@ -5128,11 +5143,11 @@ label, label + * {
 	}
 
 .sitemap-page .entity a {
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.sitemap-page .entity a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 	.sitemap-page .entity a:empty {
@@ -5146,7 +5161,7 @@ label, label + * {
 
 .block-blog-archive .number {
 	display: block;
-	color: #444;
+	color: #f6f6f6;
 	cursor: auto;
 }
 
@@ -5181,12 +5196,12 @@ label, label + * {
 	line-height: 20px;
 	font-size: 16px;
 	font-weight: bold;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.post-title:hover,
 	.news-title:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .post-date,
@@ -5196,7 +5211,7 @@ label, label + * {
 	background-color: #f6f6f6;
 	padding: 10px;
 	font-style: italic;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .post-body,
@@ -5218,7 +5233,7 @@ label, label + * {
 		display: inline-block;
 		margin: 0 3px 3px 0;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.blog-page .tags ul,
@@ -5242,7 +5257,7 @@ label, label + * {
 	.blog-page .tags a,
 	.blogpost-page .tags a {
 		display: block;
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 		.blog-page .tags a:hover,
@@ -5260,18 +5275,18 @@ label, label + * {
 		display: block;
 		margin: 0 0 15px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.blog-posts .buttons .read-comments:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 	.blog-posts .buttons .read-more,
 	.news-items .buttons .read-more {
 		display: inline-block;
 		border: none;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 10px 20px;
 		font-size: 12px;
 		color: #fff;
@@ -5280,7 +5295,7 @@ label, label + * {
 
 		.blog-posts .buttons .read-more:hover,
 		.news-items .buttons .read-more:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 .new-comment {
@@ -5301,7 +5316,7 @@ label, label + * {
 
 	.new-comment .button-1 {
 		border: none;
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 10px 30px;
 		text-align: center;
 		font-size: 15px;
@@ -5310,7 +5325,7 @@ label, label + * {
 	}
 
 		.new-comment .button-1:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 .comment-list {
@@ -5321,7 +5336,7 @@ label, label + * {
 		margin: 0 0 15px;
 		padding: 0 10px;
 		font-size: 20px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.comment-list .title strong {
@@ -5351,11 +5366,11 @@ label, label + * {
 		background-color: #f6f6f6;
 		padding: 11px 0;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.comment-info a.username:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 	.comment-info .avatar {
@@ -5385,13 +5400,13 @@ label, label + * {
 }
 
 	.comment-time span {
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .comment-title {
 	margin: 0 0 15px;
 	font-size: 16px;
-	color: #444;
+	color: #f6f6f6;
 }
 
 .comment-body {
@@ -5408,7 +5423,7 @@ label, label + * {
 		padding: 0 0 15px;
 		font-size: 30px;
 		font-weight: normal;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.news-list-homepage .title strong {
@@ -5420,12 +5435,12 @@ label, label + * {
 	}
 
 		.news-list-homepage .view-all a {
-			color: #444;
+			color: #f6f6f6;
 			text-decoration: underline;
 		}
 
 			.news-list-homepage .view-all a:hover {
-				color: #4ab2f1;
+				color: #9c5c24;
 			}
 
 
@@ -5463,7 +5478,7 @@ label, label + * {
 
 	.forums-header .current-time {
 		margin: 0 0 15px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .forum-search-box .basic {
@@ -5473,12 +5488,12 @@ label, label + * {
 
 .forum-search-box .advanced a {
 	line-height: 22px;
-	color: #444;
+	color: #f6f6f6;
 	text-decoration: underline;
 }
 
 	.forum-search-box .advanced a:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .forum-search-page .page-title {
@@ -5511,11 +5526,11 @@ label, label + * {
 	.forums-table-section-title strong {
 		font-size: 22px;
 		font-weight: normal;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.forums-table-section-title a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 .forums-table-section .image div {
@@ -5542,12 +5557,12 @@ label, label + * {
 	.forums-table-section .topic-title a {
 		font-size: 16px;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 		.forums-table-section .forum-title a:hover,
 		.forums-table-section .topic-title a:hover {
-			color: #4ab2f1;
+			color: #9c5c24;
 			text-decoration: none;
 		}
 
@@ -5579,7 +5594,7 @@ label, label + * {
 }
 
 	.forums-table-section .view-all a {
-		background-color: #4ab2f1;
+		background-color: #9c5c24;
 		padding: 10px 15px;
 		font-size: 12px;
 		color: #fff;
@@ -5587,7 +5602,7 @@ label, label + * {
 	}
 
 		.forums-table-section .view-all a:hover {
-			background-color: #248ece;
+			background-color: #5e371c;
 		}
 
 /* forum-page, topic page */
@@ -5715,11 +5730,11 @@ label, label + * {
 		background-color: #f6f6f6;
 		padding: 11px 0;
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.topic-post a.username:hover {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 	.topic-post .avatar,
@@ -5760,7 +5775,7 @@ label, label + * {
 		.profile-info-box .profile-stats span {
 			margin: 0 0 0 3px;
 			font-weight: bold;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 	.topic-post .pm-button,
@@ -5788,7 +5803,7 @@ label, label + * {
 	}
 
 		.topic-post .post-time span {
-			color: #444;
+			color: #f6f6f6;
 		}
 
 	.topic-post .post-actions {
@@ -5821,13 +5836,13 @@ label, label + * {
 
 			.topic-post .post-actions .edit-post-button:hover,
 			.topic-post .post-actions .delete-post-button:hover {
-				color: #4ab2f1;
+				color: #9c5c24;
 			}
 
 		.topic-post .post-actions .post-link-button {
 			padding: 10px;
 			font-weight: bold;
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 			.topic-post .post-actions .post-link-button:hover {
@@ -5849,7 +5864,7 @@ label, label + * {
 		/*topic post-text also gets style from blog post-body*/
 		padding: 0 10px 20px;
 		line-height: 22px;
-		color: #444;
+		color: #f6f6f6;
 		margin-bottom: 0;
 	}
 
@@ -5931,7 +5946,7 @@ label, label + * {
 	max-width: 400px;
 	font-size: 22px; /*reset zeroing*/
 	font-weight: normal;
-	color: #444;
+	color: #f6f6f6;
 	white-space: normal;
 }
 
@@ -5998,18 +6013,18 @@ label, label + * {
 .forum-edit-page .buttons .button-1,
 .move-topic-page .buttons .button-1,
 .private-messages .buttons .button-1 {
-	background-color: #4ab2f1;
+	background-color: #9c5c24;
 }
 
 	.forum-edit-page .buttons .button-1:hover,
 	.move-topic-page .buttons .button-1:hover,
 	.private-messages .buttons .button-1:hover {
-		background-color: #248ece;
+		background-color: #5e371c;
 	}
 
 .private-message-send-page a {
 	font-size: 14px;
-	color: #4ab2f1;
+	color: #9c5c24;
 }
 
 .private-message-send-page span {
@@ -6045,7 +6060,7 @@ label, label + * {
 	padding: 0 !important;
 	line-height: normal;
 	font-weight: normal;
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.ui-tabs-nav li {
@@ -6065,7 +6080,7 @@ label, label + * {
 			padding: 12px 24px;
 			text-align: center;
 			font-size: 18px;
-			color: #444;
+			color: #f6f6f6;
 			/*override jQuery UI styles, do not delete doubled properties*/
 			float: none !important;
 			padding: 12px 24px !important;
@@ -6073,7 +6088,7 @@ label, label + * {
 
 		.ui-tabs-nav li.ui-state-active a {
 			background-color: #eee;
-			color: #4ab2f1;
+			color: #9c5c24;
 		}
 
 .ui-tabs-panel {
@@ -6103,11 +6118,11 @@ label, label + * {
 }
 
 .private-messages-page td.subject a {
-	color: #444;
+	color: #f6f6f6;
 }
 
 	.private-messages-page td.subject a.pm-unread {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 .private-messages-page .pager {
@@ -6145,7 +6160,7 @@ label, label + * {
 
 	.private-message-view-page .message-head span {
 		font-weight: bold;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 .private-message-view-page .message-body {
@@ -6182,7 +6197,7 @@ label, label + * {
 	.profile-info-box .title {
 		margin: 0 0 10px;
 		font-size: 18px;
-		color: #444;
+		color: #f6f6f6;
 	}
 
 	.profile-info-box .stats {
@@ -6211,11 +6226,11 @@ label, label + * {
 
 		.latest-posts .topic-title a {
 			font-weight: bold;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 			.latest-posts .topic-title a:hover {
-				color: #4ab2f1;
+				color: #9c5c24;
 			}
 
 	.latest-posts .topic-body {
@@ -6224,7 +6239,7 @@ label, label + * {
 	}
 
 	.latest-posts .topic-data {
-		color: #444;
+		color: #f6f6f6;
 	}
 
 /* BB codes */
@@ -6286,7 +6301,13 @@ pre {
 		color: #666;
 	}
 
-
+.block-category-navigation {
+	color: #f6f6f6;
+	font-size: 16px;
+	/*background-image: url(../images/protabaco-bg-menu.png);
+	background-repeat: repeat-y;
+	background-position: center;*/
+}
 
 @media all and (max-width: 769px) {
 
@@ -6439,7 +6460,7 @@ pre {
 	}
 
 	.menu-toggle {
-		background: #4ab2f1 url('../images/menu-icon.png') right center no-repeat;
+		background: #9c5c24 url('../images/menu-icon.png') right center no-repeat;
 		padding: 15px;
 		font-size: 15px;
 		font-weight: bold;
@@ -6463,7 +6484,7 @@ pre {
 				min-height: 55px;
 				padding: 18px;
 				font-size: 15px;
-				color: #555;
+				color: #f6f6f6;
 			}
 
 		.top-menu .sublist {
@@ -6512,7 +6533,9 @@ pre {
 	}
 
 	.block-category-navigation {
-		display: none;
+		background-image: url(../images/protabaco-bg-menu.png);
+		background-repeat: repeat-y;
+		background-position: center;
 	}
 
 	.block-account-navigation {
@@ -6815,7 +6838,7 @@ pre {
 			margin: 0 0 15px;
 			background: none;
 			padding: 0;
-			color: #444;
+			color: #f6f6f6;
 			cursor: auto;
 		}
 
@@ -7168,7 +7191,7 @@ pre {
 	}
 
 	.shipment-details-page .tracking-number .tracking-url {
-		color: #4ab2f1;
+		color: #9c5c24;
 	}
 
 
@@ -7603,7 +7626,7 @@ pre {
 		z-index: 100;
 		width: 300px;
 		box-shadow: 0 0 2px rgba(0,0,0,0.25);
-		background-color: #fff;
+		background-color: #000;
 	}
 
 		.flyout-cart.active {
@@ -7618,13 +7641,13 @@ pre {
 
 		.mini-shopping-cart .count {
 			padding: 5px 0 15px;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 			.mini-shopping-cart .count a {
 				margin: 0 2px;
 				font-weight: bold;
-				color: #444;
+				color: #f6f6f6;
 			}
 
 		.mini-shopping-cart .items {
@@ -7676,16 +7699,16 @@ pre {
 		}
 
 			.mini-shopping-cart .name a {
-				color: #4ab2f1;
+				color: #9c5c24;
 			}
 
 				.mini-shopping-cart .name a:hover {
-					color: #248ece;
+					color: #5e371c;
 				}
 
 		.mini-shopping-cart .attributes {
 			margin: 5px 0;
-			color: #444;
+			color: #f6f6f6;
 		}
 
 		.mini-shopping-cart .totals {
@@ -7695,7 +7718,7 @@ pre {
 
 			.mini-shopping-cart .totals strong {
 				font-size: 16px;
-				color: #444;
+				color: #f6f6f6;
 			}
 
 		.mini-shopping-cart .buttons {
@@ -7705,7 +7728,7 @@ pre {
 		.mini-shopping-cart input[type="button"] {
 			display: inline-block;
 			border: none;
-			background-color: #4ab2f1;
+			background-color: #9c5c24;
 			padding: 10px 20px;
 			font-size: 12px;
 			color: #fff;
@@ -7713,7 +7736,7 @@ pre {
 		}
 
 			.mini-shopping-cart input[type="button"]:hover {
-				background-color: #248ece;
+				background-color: #5e371c;
 			}
 
 	.header-lower {
@@ -7784,12 +7807,12 @@ pre {
 				padding: 5px 10px;
 				line-height: 20px;
 				font-size: 17px; /*reset zeroing*/
-				color: #555;
+				color: #f6f6f6;
 				cursor: pointer;
 			}
 
 				.header-menu > ul > li > a:hover {
-					color: #4ab2f1;
+					color: #9c5c24;
 				}
 
 	.header-menu .sublist {
@@ -7811,7 +7834,7 @@ pre {
 				position: relative;
 				padding: 10px 20px 10px 30px;
 				font-size: 14px;
-				color: #444;
+				color: #f6f6f6;
 			}
 
 				.header-menu .sublist li a:before {
@@ -8547,7 +8570,7 @@ ul.list {
 
 	ul.list li .caret::before {
 		content: "\25B6";
-		color: black;
+		color: #fff;
 		display: inline-block;
 		margin-right: 6px;
 	}
@@ -8563,3 +8586,11 @@ ul.list {
 		ul.list li.root ul.sublist.active {
 			display: block;
 		}
+
+.theme-custom .nivoSlider {
+	margin: 20px 0;
+}
+
+.theme-custom .nivo-controlNav a.active {
+	background-color: #9c5c24 !important;
+}

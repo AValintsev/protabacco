@@ -43,6 +43,8 @@
     <Content Include="Themes\ProTobacco\Views\Shared\Components\CategoryNavigation\Default.cshtml" />
 
     <Content Include="Themes\ProTobacco\Views\Shared\_CategoryLine.Navigation.cshtml" />
+
+    <Content Include="Themes\ProTobacco\Views\Shared\_Header.cshtml" />
     <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" />
 
     <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
@@ -106,6 +108,7 @@
     <None Remove="Themes\ProTobacco\Views\Home\Index.cshtml" />
     <None Remove="Themes\ProTobacco\Views\Shared\Components\CategoryNavigation\Default.cshtml" />
     <None Remove="Themes\ProTobacco\Views\Shared\_CategoryLine.Navigation.cshtml" />
+    <None Remove="Themes\ProTobacco\Views\Shared\_Header.cshtml" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -135,6 +138,10 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="Themes\ProTobacco\Views\Shared\_CategoryLine.Navigation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\ProTobacco\Views\Shared\_Header.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
