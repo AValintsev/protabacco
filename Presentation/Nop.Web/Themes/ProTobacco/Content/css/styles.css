@@ -132,7 +132,6 @@ select {
 	input[type="password"]:focus,
 	textarea:focus, select:focus {
 		border-color: #ccc;
-		color: #f6f6f6;
 	}
 
 input[type="checkbox"],
@@ -289,7 +288,6 @@ label, label + * {
 .form-fields {
 	position: relative;
 	border-top: 1px solid #e6e6e6;
-	background-color: #f9f9f9;
 	padding: 30px 15px;
 }
 
@@ -429,7 +427,6 @@ label, label + * {
 	border-width: 1px 1px 0;
 	border-style: solid;
 	border-color: #ddd;
-	background-color: #f6f6f6;
 	padding: 10px;
 	white-space: nowrap;
 	font-weight: normal;
@@ -539,6 +536,11 @@ label, label + * {
 .cart td.quantity input {
 	width: 50px;
 	text-align: center;
+}
+
+.cart .qty-input-minus, .cart .qty-input-plus {
+	width: 30px !important;
+	height: 36px;
 }
 
 .cart td.subtotal,
@@ -3491,7 +3493,6 @@ label, label + * {
 	.login-page .new-wrapper .text {
 		margin: 0 0 30px;
 		border-top: 1px solid #e6e6e6;
-		background-color: #f9f9f9;
 		padding: 30px;
 		line-height: 22px;
 	}
@@ -3538,7 +3539,6 @@ label, label + * {
 }
 
 .login-page .returning-wrapper .buttons {
-	background-color: #fff;
 	padding: 30px 0;
 }
 
@@ -3926,7 +3926,6 @@ label, label + * {
 
 .shopping-cart-page .common-buttons {
 	margin: 0 0 60px;
-	background-color: #f6f6f6;
 	padding: 20px;
 	font-size: 0;
 }
@@ -4023,7 +4022,6 @@ label, label + * {
 		width: 350px;
 		max-width: 100%;
 		margin: 0 auto 50px;
-		background-color: #f9f9f9;
 		padding: 10px;
 		color: #f6f6f6;
 	}
@@ -6383,7 +6381,6 @@ pre {
 			.cart td.remove-from-cart {
 				margin: 0 0 15px;
 				border-bottom: 1px solid #ddd;
-				background-color: #eee;
 				padding: 10px;
 			}
 

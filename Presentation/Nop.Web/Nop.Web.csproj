@@ -40,7 +40,11 @@
 
     <Content Include="Themes\ProTobacco\Views\Home\Index.cshtml" />
 
+    <Content Include="Themes\ProTobacco\Views\Product\_AddToCart.cshtml" />
+
     <Content Include="Themes\ProTobacco\Views\Shared\Components\CategoryNavigation\Default.cshtml" />
+
+    <Content Include="Themes\ProTobacco\Views\Shared\Components\OrderSummary\Default.cshtml" />
 
     <Content Include="Themes\ProTobacco\Views\Shared\_CategoryLine.Navigation.cshtml" />
 
@@ -106,7 +110,9 @@
     <None Remove="Themes\ProTobacco\Content\images\watch.png" />
     <None Remove="Themes\ProTobacco\Content\images\wishlist-button.png" />
     <None Remove="Themes\ProTobacco\Views\Home\Index.cshtml" />
+    <None Remove="Themes\ProTobacco\Views\Product\_AddToCart.cshtml" />
     <None Remove="Themes\ProTobacco\Views\Shared\Components\CategoryNavigation\Default.cshtml" />
+    <None Remove="Themes\ProTobacco\Views\Shared\Components\OrderSummary\Default.cshtml" />
     <None Remove="Themes\ProTobacco\Views\Shared\_CategoryLine.Navigation.cshtml" />
     <None Remove="Themes\ProTobacco\Views\Shared\_Header.cshtml" />
 
@@ -133,7 +139,15 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+    <Content Update="Themes\ProTobacco\Views\Product\_AddToCart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
     <Content Update="Themes\ProTobacco\Views\Shared\Components\CategoryNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\ProTobacco\Views\Shared\Components\OrderSummary\Default.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
